@@ -19,7 +19,7 @@ const GetStarted = () => (
         className="get-started__img-cont"
       >
         <img
-          src="/get-started.png"
+          src="./get-started.png"
           alt="get-started"
           className="get-started__img"
         />

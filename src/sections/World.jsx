@@ -27,18 +27,18 @@ const World = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         className="world__img-cont"
       >
-        <img src="/map.png" alt="map" className="world__map" />
+        <img src="./map.png" alt="map" className="world__map" />
 
         <div className="world__human world__human_arabic">
-          <img src="/people-02.png" alt="people" className="" />
+          <img src="./people-02.png" alt="people" className="" />
         </div>
 
         <div className="world__human world__human_australia">
-          <img src="people-01.png" alt="people" className="" />
+          <img src="./people-01.png" alt="people" className="" />
         </div>
 
         <div className="world__human world__human_africa">
-          <img src="people-03.png" alt="people" className="" />
+          <img src="./people-03.png" alt="people" className="" />
         </div>
       </motion.div>
     </motion.div>

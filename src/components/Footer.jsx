@@ -16,7 +16,7 @@ const Footer = () => (
         <h4 className="footer__idea">Enter the Metaverse</h4>
         <button type="button" className="footer__button">
           <img
-            src="/headset.svg"
+            src="./headset.svg"
             alt="headset"
             className="footer__button-img"
           />

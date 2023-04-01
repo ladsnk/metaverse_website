@@ -32,7 +32,7 @@ const WhatsNew = () => (
         className="whats-new__img-cont"
       >
         <img
-          src="/whats-new.png"
+          src="./whats-new.png"
           alt="get-started"
           className="whats-new__img"
         />

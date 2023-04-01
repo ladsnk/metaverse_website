@@ -16,7 +16,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       <div className="explore-card__title_active">
         <div className="explore-card__headset-wrapper">
           <img
-            src="/headset.svg"
+            src="./headset.svg"
             alt="headset"
             className="explore-card__headset"
           />

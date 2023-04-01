@@ -16,7 +16,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       </div>
 
       <div className="insight-card__arrow-cont">
-        <img src="/arrow.svg" alt="arrow" className="insight-card__arrow" />
+        <img src="./arrow.svg" alt="arrow" className="insight-card__arrow" />
       </div>
     </div>
   </motion.div>

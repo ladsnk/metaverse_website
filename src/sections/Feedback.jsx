@@ -33,10 +33,10 @@ const Feedback = () => (
         variants={fadeIn("left", "tween", 0.2, 1)}
         className="feedback__world"
       >
-        <img src="/planet-09.png" alt="planet-09" className="feedback__img" />
+        <img src="./planet-09.png" alt="planet-09" className="feedback__img" />
 
         <motion.div variants={zoomIn(0.4, 1)} className="">
-          <img src="/stamp.png" alt="stamp" className="" />
+          <img src="./stamp.png" alt="stamp" className="" />
         </motion.div>
       </motion.div>
     </motion.div>
