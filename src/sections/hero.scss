@@ -1,0 +1,83 @@
+.hero {
+  padding-left: 9rem;
+  padding-top: 8rem;
+  position: relative;
+
+  .hero__gradient {
+    position: absolute;
+  }
+
+  .hero__gradient_blue {
+    width: 504px;
+    height: 601px;
+    right: -470px;
+    bottom: -300px;
+
+    background: #2565e1;
+    filter: blur(125px);
+    transform: rotate(-78deg);
+  }
+
+  .hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+    .hero__wrapper-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      z-index: 9;
+
+      .hero__wrapper-d {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .hero__letter-d {
+          width: 212px;
+          height: 109px;
+          margin-top: 6px;
+          margin-left: 12px;
+
+          border: 18px solid #ffffff;
+          border-radius: 0px 50px 50px 0px;
+        }
+      }
+
+      .hero__title {
+        font-family: "Eudoxus Sans";
+        font-size: 144px;
+        line-height: 110%;
+        /* or 158px */
+
+        letter-spacing: -0.02em;
+      }
+    }
+
+    .hero__wrapper-img {
+      position: relative;
+
+      max-height: 488px;
+      display: flex;
+      margin-top: -3rem;
+      .hero__img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 140px 0px 0px 42px;
+      }
+
+      .hero__stamp {
+        position: absolute;
+
+        width: 155px;
+        height: 155px;
+        right: 160px;
+        bottom: -66px;
+      }
+    }
+  }
+}

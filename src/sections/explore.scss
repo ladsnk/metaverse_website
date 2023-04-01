@@ -1,0 +1,18 @@
+.explore {
+  position: relative;
+  padding: 0 8rem;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .explore__wrapper-img {
+    margin-top: 3rem;
+
+    display: flex;
+    gap: 1.8rem;
+    min-height: 70vh;
+  }
+}

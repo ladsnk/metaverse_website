@@ -1,0 +1,26 @@
+.new-features {
+  width: 40%;
+  .new-features__img-cont {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(24px);
+    border-radius: 24px;
+    margin-bottom: 1.5rem;
+    .new-features__img {
+      width: 30%;
+    }
+  }
+
+  .new-features__subtitle {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+
+    color: #b0b0b0;
+  }
+}

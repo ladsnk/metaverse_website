@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: #1a232e;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: "Eudoxus Sans";
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.App {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.typing-text {
+  font-family: "Eudoxus Sans";
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+
+  color: rgba(199, 199, 199, 0.5);
+  opacity: 1;
+}
+
+.title-text {
+  font-family: "Eudoxus Sans";
+  font-size: 64px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}

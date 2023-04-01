@@ -1,0 +1,77 @@
+.explore-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 170px;
+  height: 570px;
+  flex: 0.5;
+  border-radius: 24px;
+  overflow: hidden;
+
+  transition: flex 0.4s ease;
+
+  .explore-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .explore-card__title_normal {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 2rem;
+    color: #ffffff;
+    white-space: nowrap;
+    transform-origin: 0 0;
+    transform: rotate(-90deg) translateY(-50%);
+  }
+
+  .explore-card__title_active {
+    background-color: rgba(0, 0, 0, 0.339);
+    width: 100%;
+    position: absolute;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    bottom: 0;
+    text-align: left;
+    font-size: 2rem;
+
+    color: #ffffff;
+    white-space: nowrap;
+
+    .explore-card__intro {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+    }
+
+    .explore-card__title {
+      font-size: 2rem;
+    }
+
+    .explore-card__headset-wrapper {
+      width: 60px;
+      height: 60px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(24px);
+      border-radius: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .explore-card__headset {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+}
+.active {
+  flex: 3.5;
+}

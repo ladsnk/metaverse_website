@@ -1,0 +1,65 @@
+.about {
+  padding: 22rem 9rem 0;
+  text-align: center;
+  position: relative;
+
+  .about__gradient {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .about__gradient_purple {
+    width: 342px;
+    height: 158px;
+    right: -300.85px;
+    top: 150px;
+
+    background: #d225e1;
+    filter: blur(185px);
+    transform: rotate(-78.79deg);
+  }
+
+  .about__gradient_green {
+    width: 665px;
+    height: 638px;
+    right: -600.6px;
+    top: 500.93px;
+
+    background: #7aebfb;
+    filter: blur(250px);
+    transform: rotate(-95.59deg);
+  }
+
+  .about__gradient_pink {
+    position: absolute;
+    width: 354px;
+    height: 1236.81px;
+    left: 257.18px;
+    top: 184.98px;
+
+    background: rgba(149, 66, 232, 0.35);
+    filter: blur(125px);
+    transform: rotate(-114.2deg);
+  }
+
+  .about__text {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    font-family: "Eudoxus Sans";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 180%;
+    /* or 58px */
+
+    color: #c7c7c7;
+
+    strong {
+      color: #ffffff;
+    }
+  }
+
+  .about__arrow {
+    width: 18px;
+  }
+}

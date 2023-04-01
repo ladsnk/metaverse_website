@@ -1,0 +1,49 @@
+.world {
+  padding: 0 8rem;
+  padding-top: 12rem;
+
+  .world__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .world__img-cont {
+      margin-top: 5rem;
+      // display: flex;
+      height: 100%;
+      // max-height: 550px;
+      width: 100%;
+      position: relative;
+
+      .world__map {
+        width: 100%;
+        height: 100%;
+        // object-fit: cover;
+      }
+
+      .world__human {
+        position: absolute;
+        max-width: 70px;
+        max-height: 70px;
+        padding: 6px;
+        background-color: #5d6680;
+        border-radius: 50%;
+      }
+
+      .world__human_arabic {
+        top: 6%;
+        left: 10%;
+      }
+
+      .world__human_africa {
+        top: 40%;
+        left: 48%;
+      }
+
+      .world__human_australia {
+        right: 10%;
+        bottom: 20%;
+      }
+    }
+  }
+}

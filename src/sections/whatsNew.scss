@@ -1,0 +1,26 @@
+.whats-new {
+  padding: 0 8rem;
+  padding-top: 12rem;
+
+  .whats-new__container {
+    display: flex;
+    align-items: center;
+
+    .whats-new__text-cont {
+      flex: 0.95;
+
+      .whats-new__new-features {
+        display: flex;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+    }
+    .whats-new__img-cont {
+      flex: 1;
+
+      img {
+        width: 110%;
+      }
+    }
+  }
+}

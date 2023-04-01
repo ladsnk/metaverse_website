@@ -1,0 +1,17 @@
+.insights {
+  padding: 0 8rem;
+  padding-top: 12rem;
+
+  .insights__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .insights__cards {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 3.5rem;
+    }
+  }
+}
